@@ -6,11 +6,11 @@ body {
   align-items: center;
   font-family: 'Patua One', cursive;
   background: linear-gradient(to bottom right, #5d0320, #1d2671);
-  /*animation: animate 10s linear infinite;*/
+  animation: animate 10s linear infinite;
   z-index: -1;
   flex-direction: column;
 }
-/*@keyframes animate {
+@keyframes animate {
     0% {
         filter: hue-rotate(0deg);
     }
@@ -18,7 +18,6 @@ body {
         filter: hue-rotate(360deg);
     }
 }
-*/
 body::before{
   content: '';
   position: absolute;
